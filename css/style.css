@@ -1,0 +1,12 @@
+/* Color Palette */
+/* Arena Yellow #ffc600 */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -2,7 +2,7 @@
 /* Arena Yellow #ffc600 */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
 /* Reset */
 * {
@@ -55,6 +55,11 @@ ul {
     color: #fff;
 }
 
+.bg-primary {
+    background: #ffc600;
+    color: #333;
+}
+
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -82,7 +87,7 @@ ul {
 
 .btn {
     display: inline-block;
-    color: #000;
+    color: #333;
     background: #ffc600;
     padding: 0.5rem 2rem;
     border: none;
@@ -90,7 +95,12 @@ ul {
 }
 
 .btn:hover {
+    color: #000;
     background: #dda600;
+}
+
+.btn-heavy {
+    font-weight: 500;
 }
 
 .btn-dark {
@@ -197,4 +207,28 @@ ul {
     display: block;
     margin: auto;
     width: 60%;
+}
+
+/* Section: Contact */
+#contact {
+    display: flex;
+}
+
+#contact .map, #contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    resize: none;
 }
